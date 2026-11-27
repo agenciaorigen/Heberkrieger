@@ -122,3 +122,4 @@ figure{margin:1rem 0}figure img{display:block;width:100%;height:auto;border-radi
 .sc-dark .btn,.sc-hero2 .btn:not(.ghost),.sc-cta .btn:not(.ghost){background:#4cc8ff;border-color:#4cc8ff;color:#0b1220}.sc-hero2 .btn:not(.ghost):hover,.sc-dark .btn:not(.ghost):hover{background:#8fdcff;border-color:#8fdcff;color:#0b1220}
 .about-card{box-shadow:14px 14px 0 #4cc8ff,0 20px 40px #0003}
 .sc-hero2{background:#0b0f16}
+.sc-light .btn:not(.ghost):not(.dk),.sc-paper .btn:not(.ghost):not(.dk){color:#fff}.sc-light .btn:not(.ghost):not(.dk):hover,.sc-paper .btn:not(.ghost):not(.dk):hover{color:#fff}
