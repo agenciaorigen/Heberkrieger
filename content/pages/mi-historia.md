@@ -7,11 +7,11 @@ Mi trayectoria combina participación política, experiencia en la administraci�
 
 ## Participación política
 
-Comencé a participar en política en 2014. Desde entonces desarrollé actividad política, militancia y organización territorial, participé en distintos espacios y en procesos electorales y candidaturas en Puerto Iguazú. De esa etapa me quedó experiencia en organización política, trabajo territorial y desarrollo de proyectos vinculados a la vida pública.
+Comencé a participar en política en 2014. Desde entonces desarrollé actividad política, militancia y organización territorial, participé en distintos espacios y en procesos electorales y candidaturas en Puerto Iguazú. Fui candidato en listas del espacio Cristianos por la Justicia Social: según la prensa, a concejal y, en las elecciones municipales de 2023, a intendente de Puerto Iguazú. De esa etapa me quedó experiencia en organización política, trabajo territorial y desarrollo de proyectos vinculados a la vida pública.
 
 ## Experiencia institucional y de gestión
 
-En 2017 y 2018 tuve experiencia en la Policía de Seguridad Aeroportuaria. Entre mayo de 2020 y febrero de 2024 fui Jefe de la Oficina de ANSES en Puerto Iguazú, con 24 años al asumir: una de las etapas centrales de mi trayectoria. Desde septiembre de 2024 tengo experiencia en el ámbito del Ministerio de Coordinación de Gabinete de la Provincia de Misiones.
+En 2017 y 2018 tuve experiencia en la Policía de Seguridad Aeroportuaria. Entre mayo de 2020 y febrero de 2024 fui Jefe de la Oficina de ANSES en Puerto Iguazú, con 24 años al asumir: una de las etapas centrales de mi trayectoria.
 
 La etapa de ANSES tiene su propia página: [mi experiencia en ANSES Puerto Iguazú](/experiencia/anses/). Más en [Experiencia en gestión pública](/experiencia/gestion-publica/).
 
@@ -21,11 +21,9 @@ También desarrollé emprendimientos y proyectos privados, vinculados al marketi
 
 ## Comunicación y medios
 
-En 2022 hice el programa «Una vida de calidad», emitido por CVi Canal 5 y por FM Visión 101.9. En 2024 volví a hacerlo en Radio Show. Hoy hago [Café de Ideas](/proyectos/cafe-de-ideas/), un espacio de entrevistas y conversación que se produce en [ORIGEN TV](/proyectos/origen-tv/) y se transmite en streaming.
+En 2022 hice el programa «Una vida de calidad», emitido por CVi Canal 5 y por FM Visión 101.9. En 2024 volví a hacerlo en Radio Show. Según la gráfica del programa, salía al aire lunes, miércoles y viernes a las 14:00, por radio y por TV. Hoy hago [Café de Ideas](/proyectos/cafe-de-ideas/), un espacio de entrevistas y conversación que se produce en [ORIGEN TV](/proyectos/origen-tv/) y se transmite en streaming.
 
-## Formación
-
-Estudié Ciencias Políticas, aunque no completé la carrera. Actualmente estudio Derecho. Complemento ese recorrido con interés y formación en tecnología, inversiones, herramientas digitales, gestión y negocios.
+![En el estudio de FM Visión 101.9, en «Una vida de calidad»](/img/una-vida-de-calidad.webp "En el estudio de FM Visión 101.9, durante «Una vida de calidad».")
 
 ## Valores
 
@@ -38,3 +36,9 @@ Mi interés por la tecnología atraviesa mis proyectos y también mi manera de m
 ## Puerto Iguazú
 
 Mi actividad pública y mis proyectos tienen base en Puerto Iguazú. Por eso esta web incluye una sección dedicada a documentar y analizar la ciudad y su futuro: [Puerto Iguazú: presente y futuro](/puerto-iguazu/).
+
+## Preguntas frecuentes
+
+**¿Qué estudiaste?**
+
+Cursé Ciencias Políticas, pero no completé la carrera. Actualmente estudio Derecho.

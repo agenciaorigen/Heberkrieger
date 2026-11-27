@@ -88,3 +88,7 @@ img{max-width:100%;height:auto}
 .giant{animation:drift linear both;animation-timeline:view();animation-range:exit 0% exit 100%}
 .rv{animation:rv linear both;animation-timeline:view();animation-range:entry 0% entry 35%}
 @keyframes drift{to{transform:translateX(-8%)}}@keyframes rv{from{opacity:0;transform:translateY(36px)}to{opacity:1;transform:none}}}}
+/* fotos ANSES */
+.ba{display:grid;gap:1rem;grid-template-columns:1fr}.ba figure:first-child img{filter:grayscale(.35)}
+figure{margin:1rem 0}figure img{display:block;width:100%;height:auto;border-radius:6px}figcaption{font-size:.9rem;color:var(--gray,#555);margin-top:.4rem}
+@media(min-width:760px){.ba{grid-template-columns:1fr 1fr}.ba figure:first-child{grid-row:span 2}.ba figure:first-child img{height:100%;object-fit:cover}}

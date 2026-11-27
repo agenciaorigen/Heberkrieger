@@ -1,5 +1,5 @@
 {
-  "version": "1.4.2",
+  "version": "1.5.2",
   "name": "Heber Krieger",
   "title": "Heber Krieger · Gestión pública, tecnología y desarrollo local",
   "tagline": "Gestión pública, tecnología y desarrollo local.",
@@ -33,5 +33,21 @@
     "Medios",
     "Turismo",
     "Modernización del Estado"
+  ],
+  "whatsapp": "5493757687014",
+  "whatsappVisible": "375 768-7014",
+  "preocupaciones": [
+    {
+      "titulo": "La gestión de lo público",
+      "texto": "Lo público se administra y se gestiona mal. No alcanza con tener recursos: hay que administrarlos bien y hacer que las cosas funcionen."
+    },
+    {
+      "titulo": "Adicciones y jóvenes",
+      "texto": "Las adicciones, incluido el alcohol, y la falta de contención y de actividades para los jóvenes."
+    },
+    {
+      "titulo": "Transparencia",
+      "texto": "Que se pueda ver y entender cómo se decide y en qué se gasta."
+    }
   ]
 }

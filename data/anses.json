@@ -15,16 +15,20 @@
     {
       "titulo": "La oficina anterior",
       "resumen": "La oficina anterior era pequeña, antigua y húmeda, con capacidad para muy poca gente. Se daban pocos turnos, y quienes necesitaban hacer trámites —jubilados y madres, entre otros— esperaban haciendo fila afuera durante la noche, con frío y a veces con lluvia. Durante años se había prometido cambiarla.",
-      "detalle": [],
-      "verificar": "Fotos o notas de prensa del estado de la oficina anterior"
+      "detalle": [
+        "Según una columna publicada en Diario de Cultura, la oficina anterior tenía unos 20 años y había quedado obsoleta, y las personas debían presentarse de madrugada y esperar a la intemperie para conseguir un turno.",
+        "El 6 de marzo de 2022, en una reunión con el Colegio de Abogados, expliqué que la capacidad operativa de esa oficina era limitada y que por eso no se podían dar turnos para nuevos trámites jubilatorios, y que estábamos próximos a mudarnos a un local más amplio."
+      ],
+      "verificar": ""
     },
     {
       "titulo": "La nueva oficina",
       "resumen": "La nueva oficina se inauguró formalmente el 13 de junio de 2022, en un acto encabezado por el gobernador y la directora ejecutiva de ANSES, donde se entregaron resoluciones de jubilación y di las palabras de bienvenida como titular de la oficina. Fue presentada como parte del proceso de urbanización de la ciudad. Para los jubilados y las madres que esperaban toda la noche, significó una atención con más dignidad: esa espera a la intemperie terminó.",
       "detalle": [
-        "Presentes, según la prensa: el gobernador Oscar Herrera Ahuad, la directora ejecutiva de ANSES Fernanda Raverta, el intendente Claudio Filippa, el ministro coordinador de Gabinete Ricardo Wellbach y el ministro de Hacienda Adolfo Safrán."
+        "Presentes, según la prensa: el gobernador Oscar Herrera Ahuad, la directora ejecutiva de ANSES Fernanda Raverta, el intendente Claudio Filippa, el ministro coordinador de Gabinete Ricardo Wellbach y el ministro de Hacienda Adolfo Safrán.",
+        "Según la misma columna de Diario de Cultura, con la nueva sede el problema de las filas quedó resuelto de manera satisfactoria y el personal pudo trabajar mejor."
       ],
-      "verificar": "Fecha de la mudanza y confirmación de que terminaron las esperas nocturnas"
+      "verificar": ""
     },
     {
       "titulo": "La dimensión social",
@@ -51,7 +55,40 @@
       "verificar": ""
     }
   ],
-  "fotos": [],
+  "fotos": [
+    {
+      "src": "/img/anses/oficina-anterior.webp",
+      "alt": "Frente de la oficina anterior de ANSES en Puerto Iguazú, con bancos en la vereda y marcas de distanciamiento en el piso",
+      "caption": "La oficina anterior.",
+      "w": 992,
+      "h": 744,
+      "grupo": "antes"
+    },
+    {
+      "src": "/img/anses/nueva-oficina-interior.webp",
+      "alt": "Sala de espera de la nueva oficina de ANSES en Puerto Iguazú, con filas de asientos y puestos de atención",
+      "caption": "La sala de espera de la nueva oficina.",
+      "w": 826,
+      "h": 371,
+      "grupo": "despues"
+    },
+    {
+      "src": "/img/anses/nueva-oficina-frente.webp",
+      "alt": "Frente de la nueva oficina de ANSES en Puerto Iguazú, con una cinta celeste y blanca en la puerta",
+      "caption": "El frente de la nueva oficina, el día de la inauguración.",
+      "w": 1400,
+      "h": 935,
+      "grupo": "despues"
+    },
+    {
+      "src": "/img/anses/inauguracion-corte-de-cinta.webp",
+      "alt": "Corte de cinta en la puerta de la nueva oficina de ANSES en Puerto Iguazú, con público dentro de la sala",
+      "caption": "Corte de cinta en la inauguración de la nueva sede, 13 de junio de 2022.",
+      "w": 1024,
+      "h": 683,
+      "grupo": "inauguracion"
+    }
+  ],
   "documentos": [],
   "referencias": [
     "Misiones Online (13/06/2022): Inauguran una sede de Anses en Puerto Iguazú | https://misionesonline.net/2022/06/13/sede-de-anses-en-puerto-iguazu11/",
@@ -59,6 +96,9 @@
     "Economis: Inauguraron la renovada oficina de ANSES en Puerto Iguazú | https://economis.com.ar/?p=257222",
     "Canal 12 Misiones: Inauguraron la renovada oficina de Anses en Puerto Iguazú | https://www.canal12misiones.com/?p=75983",
     "Misiones Online (05/05/2020): ANSES completó los cambios en las direcciones de sus sedes en Misiones | https://misionesonline.net/2020/05/05/anses-completo-los-cambios-en-las-direcciones-de-sus-sedes-en-misiones/",
-    "Primera Edición (16/03/2023): ANSES inauguró una nueva oficina en Comandante Andresito | https://www.primeraedicion.com.ar/nota/100684023/anses-inauguro-una-nueva-oficina-en-comandante-andresito/"
+    "Primera Edición (16/03/2023): ANSES inauguró una nueva oficina en Comandante Andresito | https://www.primeraedicion.com.ar/nota/100684023/anses-inauguro-una-nueva-oficina-en-comandante-andresito/",
+    "Diario de Cultura (Alberto Curia): Un argentino en Brasil: Anses Puerto Iguazú | https://www.diariodecultura.com.ar/columnas/un-argentino-en-brasil-anses-puerto-iguazu/",
+    "Diario de Cultura (Alberto Curia): Un argentino en la Triple Frontera: ANSES Puerto Iguazú | https://www.diariodecultura.com.ar/columnas/un-argentino-en-la-triple-frontera-anses-puerto-iguazu/",
+    "CADEMIS (06/03/2022): Reunión entre el jefe de la UDAI de ANSES Iguazú y el presidente del Colegio de Abogados | https://www.cademis.org.ar/leer/reunion-entre-el-jefe-de-la-udai-de-anses-iguazu-con-el-presidente-del-colegio-de-abogados"
   ]
 }

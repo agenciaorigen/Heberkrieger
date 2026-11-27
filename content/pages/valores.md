@@ -7,6 +7,8 @@ lead: Los valores desde los que miro la gestión y la vida pública. No son un p
 - **Sensibilidad social.** Atender con respeto a quienes más lo necesitan, como los jubilados y las personas con discapacidad. Para mí esa sensibilidad se traduce en algo concreto: hacer que las cosas funcionen bien.
 - **Volver al centro.** Me interesa un proyecto que se preocupe por la gente, que sea social, que tenga sensibilidad y que mantenga los valores de la familia.
 
+- **Justicia social, con mirada cristiana.** Fui candidato con el espacio Cristianos por la Justicia Social. Ya no llevo ese nombre, pero sigo identificándome con la idea que expresaba: una mirada cristiana comprometida con la justicia social, con quienes más lo necesitan y con la familia.
+
 ## De dónde vienen
 
 Estas ideas se formaron en la práctica. Mi paso por la oficina de ANSES en Puerto Iguazú es el ejemplo más claro: ver de cerca lo que significa esperar un trámite, y lo que cambia cuando el servicio funciona con dignidad. Está contado en [mi experiencia en ANSES](/experiencia/anses/).

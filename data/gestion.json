@@ -1,5 +1,5 @@
 {
-  "intro": "Mi experiencia en la administración pública y la gestión institucional, en tres etapas. Esta página describe funciones y ámbitos de trabajo; no incluye cifras ni resultados porque no hay datos verificados para publicar. A medida que existan documentos, fotografías o referencias, se suman a cada etapa.",
+  "intro": "Mi experiencia en la administración pública y la gestión institucional, en dos etapas. Esta página describe funciones y ámbitos de trabajo; no incluye cifras ni resultados porque no hay datos verificados para publicar. A medida que existan documentos, fotografías o referencias, se suman a cada etapa.",
   "etapas": [
     {
       "titulo": "Policía de Seguridad Aeroportuaria",
@@ -33,17 +33,6 @@
       "referencias": [],
       "destacada": true,
       "pagina": "/experiencia/anses/"
-    },
-    {
-      "titulo": "Ministerio de Coordinación de Gabinete, Provincia de Misiones",
-      "periodo": "Desde septiembre de 2024",
-      "institucion": "Ministerio de Coordinación de Gabinete, Provincia de Misiones",
-      "descripcion": "Experiencia en el ámbito del Ministerio de Coordinación de Gabinete de la Provincia de Misiones.",
-      "temas": [],
-      "verificar": "Denominación exacta del cargo, funciones y dependencia",
-      "fotos": [],
-      "documentos": [],
-      "referencias": []
     }
   ],
   "temasNota": "Los temas listados contextualizan el tipo de trabajo de la etapa; no son resultados ni logros."

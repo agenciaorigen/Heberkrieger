@@ -11,7 +11,7 @@ Quería un lugar propio y permanente donde reunir mi trayectoria, mis ideas y mi
 
 ## Qué vas a encontrar
 
-- **Mi historia:** dónde trabajé, qué estudié y en qué participé, con fechas.
+- **Mi historia:** dónde trabajé, qué cursé y en qué participé, con fechas.
 - **Ideas:** cada una con su contexto, el problema, el análisis, mi perspectiva y las alternativas.
 - **Puerto Iguazú: presente y futuro:** diagnósticos, informes y propuestas sobre la ciudad.
 - **Proyectos:** con su estado a la vista (realizado, en desarrollo, en curso, en planificación o propuesta).
