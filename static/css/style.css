@@ -123,3 +123,8 @@ figure{margin:1rem 0}figure img{display:block;width:100%;height:auto;border-radi
 .about-card{box-shadow:14px 14px 0 #4cc8ff,0 20px 40px #0003}
 .sc-hero2{background:#0b0f16}
 .sc-light .btn:not(.ghost):not(.dk),.sc-paper .btn:not(.ghost):not(.dk){color:#fff}.sc-light .btn:not(.ghost):not(.dk):hover,.sc-paper .btn:not(.ghost):not(.dk):hover{color:#fff}
+.prensa{list-style:none;margin:1.5rem 0;padding:0;display:grid;gap:1.4rem}.prensa li{border-left:4px solid #0a74b8;padding:.2rem 0 .2rem 1.1rem}.prensa h3{margin:.2rem 0 .4rem;font-size:1.15rem}.prensa p{margin:.2rem 0}
+.brand{white-space:nowrap}
+/* v1.10.0 propuesta */
+.prom{list-style:none;margin:1.5rem 0;padding:0;display:grid;gap:1.2rem;counter-reset:p}.prom li{counter-increment:p;border-left:4px solid #0a74b8;padding:.2rem 0 .2rem 1.1rem}.prom h3{margin:.1rem 0 .3rem;font-size:1.3rem}.prom h3:before{content:counter(p) ". ";color:#0a74b8}.prom p{margin:0}
+@media(min-width:861px){.nav{gap:.85rem}.nav a{font-size:.9rem}}

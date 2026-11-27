@@ -1,4 +1,4 @@
-# Web de Heber Krieger · v1.8.1
+# Web de Heber Krieger · v1.9.0
 
 Sitio estático sin dependencias (solo Node). Contenido en Markdown/JSON, publicación automática con GitHub Pages.
 
