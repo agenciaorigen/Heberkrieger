@@ -1,5 +1,5 @@
 {
-  "version": "1.5.2",
+  "version": "1.6.0",
   "name": "Heber Krieger",
   "title": "Heber Krieger · Gestión pública, tecnología y desarrollo local",
   "tagline": "Gestión pública, tecnología y desarrollo local.",
@@ -11,12 +11,7 @@
   "email": "",
   "formEndpoint": "",
   "social": {
-    "x": "",
-    "instagram": "",
-    "facebook": "",
-    "youtube": "",
-    "linkedin": "",
-    "tiktok": ""
+    "instagram": "https://www.instagram.com/heber_krieger/"
   },
   "analytics": {
     "plausibleDomain": "",

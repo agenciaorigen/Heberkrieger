@@ -92,3 +92,8 @@ img{max-width:100%;height:auto}
 .ba{display:grid;gap:1rem;grid-template-columns:1fr}.ba figure:first-child img{filter:grayscale(.35)}
 figure{margin:1rem 0}figure img{display:block;width:100%;height:auto;border-radius:6px}figcaption{font-size:.9rem;color:var(--gray,#555);margin-top:.4rem}
 @media(min-width:760px){.ba{grid-template-columns:1fr 1fr}.ba figure:first-child{grid-row:span 2}.ba figure:first-child img{height:100%;object-fit:cover}}
+/* v1.6 confianza */
+.proof{list-style:none;margin:1.2rem 0 0;padding:0;display:flex;flex-wrap:wrap;gap:.5rem}.proof li{font-size:.82rem;padding:.3rem .7rem;border:1px solid #ffffff40;border-radius:99px;opacity:.9}
+.ba2{display:grid;gap:1rem;grid-template-columns:1fr}@media(min-width:760px){.ba2{grid-template-columns:1fr 1fr}}
+.facts3{list-style:none;margin:1.5rem 0;padding:0;display:grid;gap:1rem;grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}.facts3 li{border-left:4px solid #b4532a;padding-left:1rem}
+.faq details{border-bottom:1px solid #d6d2ca;padding:.9rem 0}.faq summary{cursor:pointer;font-weight:600;font-size:1.05rem}.faq summary:focus-visible{outline:3px solid #b4532a;outline-offset:3px}.faq p{margin:.6rem 0 0}
