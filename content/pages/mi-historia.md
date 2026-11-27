@@ -7,7 +7,11 @@ Mi trayectoria combina participación política, experiencia en la administraci�
 
 ## Participación política
 
-Comencé a participar en política en 2014. Desde entonces desarrollé actividad política, militancia y organización territorial, participé en distintos espacios y en procesos electorales y candidaturas en Puerto Iguazú. Fui candidato en listas del espacio Cristianos por la Justicia Social: según la prensa, a concejal y, en las elecciones municipales de 2023, a intendente de Puerto Iguazú. De esa etapa me quedó experiencia en organización política, trabajo territorial y desarrollo de proyectos vinculados a la vida pública.
+Comencé a participar en política en 2014. Desde entonces desarrollé actividad política, militancia y organización territorial, participé en distintos espacios y en procesos electorales y candidaturas en Puerto Iguazú. Fui candidato en listas del espacio Cristianos por la Justicia Social: en 2021 a concejal de Puerto Iguazú, y no llegué por unos 50 votos; en 2023 a intendente. 
+
+![Imagen de mi candidatura a intendente en 2023](/img/campana-2023.webp "Material de mi candidatura a intendente, 2023.")
+
+De esa etapa me quedó experiencia en organización política, trabajo territorial y desarrollo de proyectos vinculados a la vida pública.
 
 ## Experiencia institucional y de gestión
 

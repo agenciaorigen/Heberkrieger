@@ -1,5 +1,5 @@
 {
-  "version": "1.6.0",
+  "version": "1.7.0",
   "name": "Heber Krieger",
   "title": "Heber Krieger · Gestión pública, tecnología y desarrollo local",
   "tagline": "Gestión pública, tecnología y desarrollo local.",
@@ -8,7 +8,7 @@
   "region": "Misiones",
   "country": "AR",
   "url": "https://agenciaorigen.github.io/Heberkrieger",
-  "email": "",
+  "email": "heberkrieger@gmail.com",
   "formEndpoint": "",
   "social": {
     "instagram": "https://www.instagram.com/heber_krieger/"
@@ -33,16 +33,16 @@
   "whatsappVisible": "375 768-7014",
   "preocupaciones": [
     {
-      "titulo": "La gestión de lo público",
-      "texto": "Lo público se administra y se gestiona mal. No alcanza con tener recursos: hay que administrarlos bien y hacer que las cosas funcionen."
+      "titulo": "Que lo público funcione",
+      "texto": "Tener recursos no alcanza. Una ciudad se mide por si el trámite se resuelve, la obra se termina y cada vecino es atendido con respeto. Administrar bien es una decisión de todos los días."
     },
     {
-      "titulo": "Adicciones y jóvenes",
-      "texto": "Las adicciones, incluido el alcohol, y la falta de contención y de actividades para los jóvenes."
+      "titulo": "Los jóvenes necesitan un lugar",
+      "texto": "Me preocupa que, donde faltan contención y actividades para los chicos, el alcohol y las adicciones ocupen ese espacio. Cuidar a los jóvenes empieza antes de que haya un problema."
     },
     {
-      "titulo": "Transparencia",
-      "texto": "Que se pueda ver y entender cómo se decide y en qué se gasta."
+      "titulo": "Que se vea adónde va cada peso",
+      "texto": "La transparencia no es un trámite: es poder ver y entender cómo se decide y en qué se gasta. Cuando la gente puede mirar, la confianza se construye."
     }
   ]
 }
