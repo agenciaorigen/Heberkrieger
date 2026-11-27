@@ -1,5 +1,5 @@
 {
-  "version": "1.4.0",
+  "version": "1.4.2",
   "name": "Heber Krieger",
   "title": "Heber Krieger · Gestión pública, tecnología y desarrollo local",
   "tagline": "Gestión pública, tecnología y desarrollo local.",
@@ -7,7 +7,7 @@
   "locality": "Puerto Iguazú",
   "region": "Misiones",
   "country": "AR",
-  "url": "https://CAMBIAR-DOMINIO.example",
+  "url": "https://agenciaorigen.github.io/Heberkrieger",
   "email": "",
   "formEndpoint": "",
   "social": {

@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// Generador estático sin dependencias · v1.4.0
+// Generador estático sin dependencias · v1.4.2
 // Lee content/*.md y data/*.json → escribe dist/
 import { readFileSync, writeFileSync, mkdirSync, readdirSync, existsSync, cpSync, rmSync } from 'node:fs';
 import { join, dirname } from 'node:path';
@@ -23,6 +23,7 @@ const fmt = d => { const t = new Date(d + 'T12:00:00'); return isNaN(t) ? '' : t
 const safe = u => (/^(https?:\/\/|\/|#|mailto:)/i.test(u) ? u : '#');
 const ld = o => `<script type="application/ld+json">${JSON.stringify(o).replace(/</g, '\\u003c')}</script>`;
 const social = Object.values(site.social).filter(Boolean);
+const PFX = new URL(BASE.includes('CAMBIAR') ? 'https://x.example' : BASE).pathname.replace(/\/$/, ''); // subruta (p. ej. /Heberkrieger) si no hay dominio propio
 const PERSON_ID = BASE + '/#persona';
 const hasPhoto = existsSync('static/img/heber.jpg');
 const hasOg = existsSync('static/img/og-default.png');
@@ -111,8 +112,8 @@ function emit(path, o) {
   const crumbs = o.crumbs || [];
   const crumbLd = crumbs.length ? ld({ '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [{ name: 'Inicio', url: '/' }, ...crumbs].map((x, i) => ({ '@type': 'ListItem', position: i + 1, name: x.name, item: BASE + x.url })) }) : '';
   const an = site.analytics;
-  const html = `<!doctype html>
-<html lang="es-AR"><head>
+  let html = `<!doctype html>
+<html lang="es-AR" data-base="${PFX}"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>${esc(title)}</title>
 <meta name="description" content="${esc(o.description || site.description)}">
@@ -145,6 +146,7 @@ ${an.ga4 ? `<script async src="https://www.googletagmanager.com/gtag/js?id=${esc
 </div></footer>
 <script src="/js/app.js?v=${V}" defer></script>
 </body></html>`;
+  if (PFX) html = html.replace(/(href|src)="\/(?!\/)/g, `$1="${PFX}/`);
   const f = path.endsWith('.html') ? join(OUT, path) : join(OUT, path, 'index.html');
   mkdirSync(dirname(f), { recursive: true }); writeFileSync(f, html);
   if (!noindex && path !== '/404.html') sitemap.push({ loc: BASE + path, lastmod: o.modified });

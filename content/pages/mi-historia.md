@@ -19,6 +19,10 @@ La etapa de ANSES tiene su propia página: [mi experiencia en ANSES Puerto Iguaz
 
 También desarrollé emprendimientos y proyectos privados, vinculados al marketing, la comunicación, el desarrollo web, la tecnología, la producción audiovisual y el turismo. Hoy desarrollo [ORIGEN](/proyectos/origen/), [ORIGEN TV](/proyectos/origen-tv/) y [Café de Ideas](/proyectos/cafe-de-ideas/). Más en [Experiencia emprendedora](/experiencia/emprendedora/).
 
+## Comunicación y medios
+
+En 2022 hice el programa «Una vida de calidad», emitido por CVi Canal 5 y por FM Visión 101.9. En 2024 volví a hacerlo en Radio Show. Hoy hago [Café de Ideas](/proyectos/cafe-de-ideas/), un espacio de entrevistas y conversación que se produce en [ORIGEN TV](/proyectos/origen-tv/) y se transmite en streaming.
+
 ## Formación
 
 Estudié Ciencias Políticas, aunque no completé la carrera. Actualmente estudio Derecho. Complemento ese recorrido con interés y formación en tecnología, inversiones, herramientas digitales, gestión y negocios.

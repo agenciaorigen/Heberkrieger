@@ -30,6 +30,16 @@
     "verificar": ""
   },
   {
+    "year": "2022",
+    "title": "Programa «Una vida de calidad» en CVi Canal 5 y FM Visión 101.9",
+    "description": "En 2022 conduje el programa «Una vida de calidad», emitido por CVi Canal 5 y por FM Visión 101.9. En 2024 volví a hacerlo en Radio Show.",
+    "institution": "CVi Canal 5 · FM Visión 101.9 · Radio Show",
+    "link": "",
+    "image": "",
+    "document": "",
+    "verificar": "Nombre exacto del programa, rol (conducción/producción), fechas y horarios"
+  },
+  {
     "year": "2024",
     "title": "Ministerio de Coordinación de Gabinete de Misiones",
     "description": "Desde septiembre de 2024 tengo experiencia en el ámbito del Ministerio de Coordinación de Gabinete de la Provincia de Misiones.",
@@ -38,5 +48,15 @@
     "image": "",
     "document": "",
     "verificar": "Denominación exacta del cargo, funciones y dependencia"
+  },
+  {
+    "year": "Hoy",
+    "title": "Café de Ideas · ORIGEN TV (streaming)",
+    "description": "Actualmente hago Café de Ideas, un espacio de entrevistas y conversación que se produce en ORIGEN TV, con transmisión en streaming.",
+    "institution": "ORIGEN TV",
+    "link": "/proyectos/cafe-de-ideas/",
+    "image": "",
+    "document": "",
+    "verificar": "Fecha de inicio y plataformas"
   }
 ]

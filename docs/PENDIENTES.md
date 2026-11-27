@@ -1,4 +1,4 @@
-# Pendientes de información y verificación · v1.4.0
+# Pendientes de información y verificación · v1.4.2
 
 Nada de esto está inventado ni completado. En la web, lo marcado "En verificación" tiene en los datos un campo `verificar` (borrarlo saca la marca).
 
@@ -13,7 +13,7 @@ Nada de esto está inventado ni completado. En la web, lo marcado "En verificaci
 ## ANSES (etapa destacada)
 Completar en `data/anses.json` (campo `detalle` de cada dimensión; borrar `verificar` al confirmar): cargo exacto, equipo, qué implicó la parte social, el cambio de oficina (fecha, motivo, tu rol), operativos territoriales, desafíos del período, fotos y documentos.
 
-## Revisar de lo último que cargué (v1.4.0)
+## Revisar de lo último que cargué (v1.4.2)
 - **ANSES:** el cargo (Jefe de la Oficina) quedó confirmado por vos y por la prensa. Lo que viene de tu relato (oficina anterior húmeda, esperas nocturnas, operativos en todos los barrios, equipo reducido) está sin respaldo externo: sumar fotos o notas.
 - **Dejé afuera a propósito:** que "hasta hoy la gente lo recuerda" (no hay con qué sostenerlo; se puede agregar con testimonios con consentimiento) y que a los operativos en escuelas "los sacaron por cuestiones políticas" (es una atribución política; si querés incluirla, redactala vos).
 - **Prensa crítica:** existe una nota de Primera Edición (09/2021) con un reclamo de una jubilada contra la oficina. No la incluí, pero conviene saber que está en Google. La página no afirma que todos quedaron conformes.
@@ -44,3 +44,5 @@ Completar en `data/anses.json` (campo `detalle` de cada dimensión; borrar `veri
 | Dominio, contacto, redes, analytics | `data/site.json` |
 
 Todo se puede editar desde `/admin/`.
+
+- Verificar programa «Una vida de calidad» (CVi Canal 5, FM Visión 101.9, 2022; Radio Show, 2024): nombre exacto, rol, fechas, horarios y, si hay, links o grabaciones para cargar en Medios.

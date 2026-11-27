@@ -1,3 +1,4 @@
+const B = document.documentElement.dataset.base || '';
 // JS mínimo: menú, compartir, formulario por email y buscador. Sin dependencias.
 const $ = (s, r = document) => r.querySelector(s);
 
@@ -36,10 +37,10 @@ if (sf) {
     if (!hits.length) { const li = document.createElement('li'); li.textContent = 'Sin resultados.'; out.append(li); return; }
     for (const { p } of hits) {
       const li = document.createElement('li'), a = document.createElement('a'), d = document.createElement('p');
-      a.href = p.u; a.textContent = p.t; d.textContent = p.d; li.append(a, d); out.append(li);
+      a.href = B + p.u; a.textContent = p.t; d.textContent = p.d; li.append(a, d); out.append(li);
     }
   };
-  fetch('/search-index.json').then(r => r.json()).then(j => { idx = j; q.value = new URLSearchParams(location.search).get('q') || ''; render(); });
+  fetch(B + '/search-index.json').then(r => r.json()).then(j => { idx = j; q.value = new URLSearchParams(location.search).get('q') || ''; render(); });
   q.addEventListener('input', render);
   sf.addEventListener('submit', e => e.preventDefault());
 }
