@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow"><title>Administración</title>
+<style>
+body{font:16px/1.5 system-ui,sans-serif;max-width:900px;margin:1.5rem auto;padding:0 1rem;color:#0e1f3f}
+label{display:block;font-weight:600;margin:.8rem 0 .2rem}input,select,textarea{width:100%;font:inherit;padding:.5rem;border:1px solid #9aa3b2;border-radius:6px}
+textarea{min-height:60vh;font:14px/1.5 ui-monospace,monospace}button{font:inherit;padding:.5rem 1rem;border:0;border-radius:6px;background:#b4532a;color:#fff;cursor:pointer;margin:.5rem .5rem 0 0}
+button.s{background:#14315c}fieldset{border:1px solid #ddd;border-radius:8px;margin:1rem 0}#msg{padding:.6rem;border-radius:6px;margin:1rem 0}.ok{background:#e6f4ea}.err{background:#fde8e8}[hidden]{display:none}
+</style></head><body>
+<h1>Administración del sitio</h1>
+<p>Edita archivos del repositorio. Al guardar se crea un commit y el sitio se publica solo en 1–2 minutos.</p>
+<div id="msg" role="status" aria-live="polite" hidden></div>
+<fieldset><legend>Conexión</legend>
+<label for="repo">Repositorio (usuario/nombre)</label><input id="repo" placeholder="heberkrieger/web">
+<label for="br">Rama</label><input id="br" value="main">
+<label for="tk">Token de GitHub (fine-grained, solo este repo, permiso Contents: lectura y escritura)</label><input id="tk" type="password" autocomplete="off">
+<button id="go">Conectar</button> <button class="s" id="out" type="button">Olvidar token</button>
+<p><small>El token se guarda solo en este navegador. Usá un token limitado a este repositorio y no uses este panel en computadoras compartidas.</small></p></fieldset>
+<section id="ed" hidden>
+<label for="file">Archivo</label><select id="file"></select>
+<fieldset><legend>Crear contenido nuevo</legend>
+<label for="col">Tipo</label><select id="col"><option value="publicaciones">Publicación</option><option value="ideas">Idea</option><option value="puerto-iguazu">Informe Puerto Iguazú</option><option value="proyectos">Proyecto</option><option value="medios">Medios</option></select>
+<label for="slug">Nombre del archivo (letras minúsculas, números y guiones)</label><input id="slug" placeholder="mi-primer-articulo">
+<button class="s" id="new" type="button">Crear desde plantilla</button></fieldset>
+<label for="txt">Contenido</label><textarea id="txt" spellcheck="true"></textarea>
+<button id="save">Guardar y publicar</button>
+<fieldset><legend>Subir imagen</legend><input id="img" type="file" accept="image/jpeg,image/png,image/webp"><button class="s" id="up" type="button">Subir a /img/</button><p id="imgout"></p></fieldset>
+</section>
+<script>
+const $=s=>document.querySelector(s);let cfg=JSON.parse(localStorage.getItem('hk-admin')||'{}'),cur=null;
+$('#repo').value=cfg.repo||'';$('#br').value=cfg.br||'main';$('#tk').value=cfg.token||'';
+const say=(t,e)=>{const m=$('#msg');m.hidden=false;m.className=e?'err':'ok';m.textContent=t};
+const b64=s=>{let b='';new TextEncoder().encode(s).forEach(c=>b+=String.fromCharCode(c));return btoa(b)};
+const unb64=x=>new TextDecoder().decode(Uint8Array.from(atob(x.replace(/\n/g,'')),c=>c.charCodeAt(0)));
+async function gh(p,o={}){const r=await fetch(`https://api.github.com/repos/${cfg.repo}/${p}`,{...o,headers:{Accept:'application/vnd.github+json',Authorization:'Bearer '+cfg.token,'Content-Type':'application/json'}});if(!r.ok)throw new Error(r.status+' '+(await r.text()).slice(0,160));return r.json()}
+const T={publicaciones:`---\ntitle: \ndescription: \ndate: ${new Date().toISOString().slice(0,10)}\ncategory: Opinión\ntags: []\n---\nEscribí acá.\n`,ideas:null,'puerto-iguazu':null,proyectos:null,medios:null};
+async function list(){const t=await gh(`git/trees/${cfg.br}?recursive=1`);const f=t.tree.filter(x=>x.type==='blob'&&/^(content|data)\/.*\.(md|json)$/.test(x.path)).map(x=>x.path);$('#file').replaceChildren(new Option('— elegir —',''),...f.map(p=>new Option(p,p)));return t}
+$('#go').onclick=async()=>{cfg={repo:$('#repo').value.trim(),br:$('#br').value.trim()||'main',token:$('#tk').value.trim()};
+if(!/^[\w.-]+\/[\w.-]+$/.test(cfg.repo)||!cfg.token)return say('Completá repositorio (usuario/nombre) y token.',1);
+try{await list();localStorage.setItem('hk-admin',JSON.stringify(cfg));$('#ed').hidden=false;say('Conectado.')}catch(e){say('No se pudo conectar: '+e.message,1)}};
+$('#out').onclick=()=>{localStorage.removeItem('hk-admin');$('#tk').value='';say('Token olvidado.')};
+async function open(p){const j=await gh(`contents/${p}?ref=${cfg.br}`);cur={path:p,sha:j.sha};$('#txt').value=unb64(j.content)}
+$('#file').onchange=async e=>{if(!e.target.value)return;try{await open(e.target.value);say('Abierto '+e.target.value)}catch(x){say(x.message,1)}};
+$('#new').onclick=async()=>{const col=$('#col').value,slug=$('#slug').value.trim();
+if(!/^[a-z0-9]+(-[a-z0-9]+)*$/.test(slug))return say('El nombre solo puede tener minúsculas, números y guiones.',1);
+const path=`content/${col}/${slug}.md`;let tpl=T[col];
+if(!tpl){try{tpl=unb64((await gh(`contents/content/${col}/_plantilla.md?ref=${cfg.br}`)).content).replace('draft: true','draft: false')}catch{return say('No encontré la plantilla.',1)}}
+cur={path,sha:null};$('#txt').value=tpl;say('Plantilla cargada. Completala y guardá.')};
+$('#save').onclick=async()=>{if(!cur)return say('Elegí o creá un archivo.',1);const t=$('#txt').value;
+if(cur.path.endsWith('.json')){try{JSON.parse(t)}catch(e){return say('JSON inválido: '+e.message,1)}}
+else if(cur.path.startsWith('content/')&&!cur.path.includes('/_')&&!cur.path.startsWith('content/pages/')){const fm=t.match(/^---\n([\s\S]*?)\n---/);
+if(!fm||!/^title:\s*\S/m.test(fm[1])||!/^date:\s*\d{4}-\d{2}-\d{2}\s*$/m.test(fm[1]))return say('Faltan título o fecha (AAAA-MM-DD) en el encabezado.',1)}
+try{const r=await gh(`contents/${cur.path}`,{method:'PUT',body:JSON.stringify({message:`Admin: ${cur.sha?'editar':'crear'} ${cur.path}`,content:b64(t),branch:cfg.br,...(cur.sha?{sha:cur.sha}:{})})});cur.sha=r.content.sha;say('Guardado. El sitio se actualiza en 1–2 minutos.');list()}catch(e){say('Error al guardar: '+e.message,1)}};
+$('#up').onclick=async()=>{const f=$('#img').files[0];if(!f)return say('Elegí una imagen.',1);
+if(!/^image\/(jpeg|png|webp)$/.test(f.type)||f.size>2e6)return say('Solo JPG/PNG/WebP de hasta 2 MB.',1);
+const name=f.name.toLowerCase().replace(/[^a-z0-9.]+/g,'-');const buf=new Uint8Array(await f.arrayBuffer());let b='';buf.forEach(c=>b+=String.fromCharCode(c));
+try{await gh(`contents/static/img/${name}`,{method:'PUT',body:JSON.stringify({message:'Admin: subir imagen '+name,content:btoa(b),branch:cfg.br})});$('#imgout').textContent=`Listo. Usala como: /img/${name}`;say('Imagen subida.')}catch(e){say('Error (¿ya existe ese nombre?): '+e.message,1)}};
+if(cfg.token&&cfg.repo)$('#go').click();
+</script></body></html>

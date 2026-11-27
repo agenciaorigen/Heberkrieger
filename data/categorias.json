@@ -1,0 +1,35 @@
+{
+  "ideas": [
+    "Gestión pública", "Desarrollo local", "Puerto Iguazú", "Modernización del Estado",
+    "Tecnología", "Inteligencia Artificial", "Turismo", "Economía local", "Emprendimiento",
+    "Seguridad", "Infraestructura", "Servicios públicos", "Desarrollo urbano",
+    "Participación ciudadana", "Educación", "Formación", "Juventud", "Desarrollo social",
+    "Innovación", "Desarrollo regional"
+  ],
+  "publicaciones": [
+    "Política", "Gestión pública", "Puerto Iguazú", "Desarrollo local", "Tecnología",
+    "Inteligencia Artificial", "Turismo", "Emprendimiento", "Economía", "Sociedad",
+    "Innovación", "Opinión"
+  ],
+  "formatos": ["Artículo", "Análisis", "Opinión", "Idea", "Informe", "Documento", "Video", "Entrevista"],
+  "puerto": [
+    "Infraestructura", "Gestión municipal", "Turismo", "Seguridad", "Desarrollo económico",
+    "Desarrollo urbano", "Participación ciudadana", "Eventos"
+  ],
+  "puertoTemas": {
+    "Infraestructura": ["Infraestructura urbana", "Mantenimiento", "Servicios", "Agua", "Electricidad", "Planificación"],
+    "Gestión municipal": ["Organización administrativa", "Modernización", "Digitalización", "Procesos", "Transparencia", "Gestión de recursos", "Atención ciudadana"],
+    "Turismo": ["Desarrollo turístico", "Alojamientos", "Hoteles", "Emprendedores", "Comercio", "Actividad durante todo el año", "Economía local"],
+    "Seguridad": ["Seguridad urbana", "Prevención", "Tecnología", "Iluminación", "Sistemas de monitoreo", "Organización y planificación"],
+    "Desarrollo económico": ["Comercio", "Emprendimientos", "Inversión", "Empleo", "Pequeñas empresas", "Nuevas oportunidades"],
+    "Desarrollo urbano": ["Planificación", "Espacios públicos", "Movilidad", "Infraestructura"],
+    "Participación ciudadana": ["Organización comunitaria", "Participación", "Relevamiento de problemas", "Propuestas", "Instituciones", "Comunidad"],
+    "Eventos": ["Desarrollo de eventos", "Actividades culturales", "Actividades deportivas", "Turismo", "Economía local", "Organización"]
+  },
+  "proyectos": [
+    "Proyectos empresariales", "Proyectos de comunicación", "Proyectos tecnológicos",
+    "Proyectos audiovisuales", "Proyectos de gestión", "Proyectos comunitarios",
+    "Proyectos de desarrollo", "Propuestas"
+  ],
+  "estados": ["Realizado", "En curso", "En desarrollo", "En planificación", "Propuesta"]
+}

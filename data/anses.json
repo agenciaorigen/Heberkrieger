@@ -1,0 +1,64 @@
+{
+  "titulo": "ANSES Puerto Iguazú",
+  "periodo": "Mayo de 2020 – febrero de 2024",
+  "institucion": "ANSES, oficina de Puerto Iguazú",
+  "lead": "Fui Jefe de la Oficina de ANSES en Puerto Iguazú entre mayo de 2020 y febrero de 2024. Es una de las etapas centrales de mi trayectoria: conducir una oficina pública que atendía a toda la zona, trabajar con sensibilidad hacia quienes más necesitaban el servicio y acompañar el cambio a una nueva sede.",
+  "contexto": "ANSES es el organismo nacional de seguridad social. Sus oficinas locales atienden a la ciudadanía en trámites, servicios y prestaciones. Este párrafo describe al organismo; no son logros personales.",
+  "verificar": "",
+  "dimensiones": [
+    {
+      "titulo": "Jefe de la Oficina",
+      "resumen": "En mayo de 2020 fui designado Jefe de la Oficina de ANSES en Puerto Iguazú, con 24 años y siendo estudiante de Ciencias Políticas. Desde el comienzo planteé la idea de una ANSES dinámica, trabajando junto a todo el personal. Ejercí esa conducción hasta febrero de 2024.",
+      "detalle": [],
+      "verificar": "Resolución o constancia de designación"
+    },
+    {
+      "titulo": "La oficina anterior",
+      "resumen": "La oficina anterior era pequeña, antigua y húmeda, con capacidad para muy poca gente. Se daban pocos turnos, y quienes necesitaban hacer trámites —jubilados y madres, entre otros— esperaban haciendo fila afuera durante la noche, con frío y a veces con lluvia. Durante años se había prometido cambiarla.",
+      "detalle": [],
+      "verificar": "Fotos o notas de prensa del estado de la oficina anterior"
+    },
+    {
+      "titulo": "La nueva oficina",
+      "resumen": "La nueva oficina se inauguró formalmente el 13 de junio de 2022, en un acto encabezado por el gobernador y la directora ejecutiva de ANSES, donde se entregaron resoluciones de jubilación y di las palabras de bienvenida como titular de la oficina. Fue presentada como parte del proceso de urbanización de la ciudad. Para los jubilados y las madres que esperaban toda la noche, significó una atención con más dignidad: esa espera a la intemperie terminó.",
+      "detalle": [
+        "Presentes, según la prensa: el gobernador Oscar Herrera Ahuad, la directora ejecutiva de ANSES Fernanda Raverta, el intendente Claudio Filippa, el ministro coordinador de Gabinete Ricardo Wellbach y el ministro de Hacienda Adolfo Safrán."
+      ],
+      "verificar": "Fecha de la mudanza y confirmación de que terminaron las esperas nocturnas"
+    },
+    {
+      "titulo": "La dimensión social",
+      "resumen": "Lo central fue la sensibilidad para atender a jubilados y a personas con discapacidad. Para mí, esa sensibilidad significa algo concreto: hacer que las cosas funcionen bien.",
+      "detalle": [],
+      "verificar": "Casos o testimonios con consentimiento"
+    },
+    {
+      "titulo": "Un equipo reducido para una zona grande",
+      "resumen": "El personal era poco, y había que organizarlo para atender a toda la zona: no solo Puerto Iguazú, sino también Wanda, Puerto Esperanza, Libertad y Comandante Andresito, hasta que Andresito abrió su propia oficina (inaugurada en marzo de 2023).",
+      "detalle": [],
+      "verificar": "Cantidad de personas y organización del equipo, si querés mencionarlo"
+    },
+    {
+      "titulo": "Operativos en el territorio",
+      "resumen": "Durante la pandemia hicimos operativos, primero en escuelas. Después pasamos a hacerlos en barrios y casas, y los realizamos en todos los barrios de Puerto Iguazú.",
+      "detalle": [],
+      "verificar": "Fechas, lugares y cantidad de operativos; fotos"
+    },
+    {
+      "titulo": "Un período de grandes desafíos",
+      "resumen": "La etapa empezó en mayo de 2020, en plena pandemia: un período de grandes desafíos institucionales para cualquier oficina pública.",
+      "detalle": [],
+      "verificar": ""
+    }
+  ],
+  "fotos": [],
+  "documentos": [],
+  "referencias": [
+    "Misiones Online (13/06/2022): Inauguran una sede de Anses en Puerto Iguazú | https://misionesonline.net/2022/06/13/sede-de-anses-en-puerto-iguazu11/",
+    "Misiones Online (13/06/2022): Herrera Ahuad en Iguazú, nueva sede de ANSES | https://misionesonline.net/2022/06/13/herrera-ahuad-en-iguazu-anses-1/",
+    "Economis: Inauguraron la renovada oficina de ANSES en Puerto Iguazú | https://economis.com.ar/?p=257222",
+    "Canal 12 Misiones: Inauguraron la renovada oficina de Anses en Puerto Iguazú | https://www.canal12misiones.com/?p=75983",
+    "Misiones Online (05/05/2020): ANSES completó los cambios en las direcciones de sus sedes en Misiones | https://misionesonline.net/2020/05/05/anses-completo-los-cambios-en-las-direcciones-de-sus-sedes-en-misiones/",
+    "Primera Edición (16/03/2023): ANSES inauguró una nueva oficina en Comandante Andresito | https://www.primeraedicion.com.ar/nota/100684023/anses-inauguro-una-nueva-oficina-en-comandante-andresito/"
+  ]
+}

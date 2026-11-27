@@ -1,0 +1,27 @@
+{
+  "intro": "Las áreas en las que trabajé y me interesa trabajar, descriptas por la experiencia que hay detrás de cada una. No son certificaciones ni títulos profesionales.",
+  "areas": [
+    { "title": "Gestión pública", "text": "Experiencia en instituciones públicas, organización administrativa, servicios, gestión y procesos institucionales." },
+    { "title": "Emprendimiento", "text": "Experiencia en desarrollo, organización y gestión de proyectos empresariales." },
+    { "title": "Tecnología", "text": "Interés y experiencia en herramientas digitales, automatización, plataformas, innovación y soluciones tecnológicas." },
+    { "title": "Comunicación", "text": "Experiencia en marketing, medios, entrevistas, producción audiovisual, comunicación digital y contenidos." },
+    { "title": "Desarrollo de proyectos", "text": "Experiencia en ideación, organización, planificación y desarrollo de iniciativas." },
+    { "title": "Turismo", "text": "Experiencia relacionada con emprendimientos y proyectos vinculados al sector turístico y al alojamiento." },
+    { "title": "Organización", "text": "Experiencia organizando equipos, servicios, proyectos y diferentes iniciativas." }
+  ],
+  "fortalezas": [
+    "Gestión pública", "Organización", "Emprendimiento", "Comunicación", "Tecnología",
+    "Desarrollo de proyectos", "Turismo", "Innovación", "Organización de equipos",
+    "Experiencia territorial", "Desarrollo de iniciativas"
+  ],
+  "nota": "Estas áreas se muestran a través de experiencias, proyectos y contenidos concretos, no como calificaciones personales.",
+  "vision": {
+    "intro": "Un espacio para analizar cómo mejorar la administración pública. Una línea de pensamiento que quiero desarrollar es cómo las herramientas de gestión, organización, tecnología y planificación pueden contribuir a mejorar las instituciones públicas. No parto de que una empresa y el Estado funcionen igual: son ámbitos distintos, con objetivos y reglas distintas.",
+    "temas": [
+      "Cómo mejorar la administración pública", "Tecnología aplicada a la gestión", "Digitalización",
+      "Organización", "Planificación", "Seguimiento", "Evaluación", "Transparencia", "Simplificación",
+      "Servicios públicos", "Gestión basada en datos", "Innovación", "Administración de recursos", "Atención ciudadana"
+    ],
+    "nota": "Línea de análisis en desarrollo. Los documentos se publican en Ideas, con su contexto, fuentes y fecha."
+  }
+}
